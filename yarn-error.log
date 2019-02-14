@@ -1,0 +1,35 @@
+Arguments: 
+  /usr/bin/node /mnt/c/home/.npm-global/bin/yarn add browser-sync stylelint stylelint-config-standard eslint eslint-config-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node eslint-plugin-standard --dev
+
+PATH: 
+  /mnt/c/home/.npm-global/bin:/mnt/c/home/.npm-global/bin:/mnt/c/home/.npm-global/bin:/mnt/c/home/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files/Git/cmd:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/nodejs:/mnt/c/Program Files (x86)/Yarn/bin:/mnt/c/Users/Mira S. Kang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Mira S. Kang/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mira S. Kang/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Mira S. Kang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Docker Toolbox:/mnt/c/Users/Mira S. Kang/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/mnt/c/home/.cache/yarn/v4/npm-rxjs-6.4.0-f3bb0fe7bda7fb69deac0c16f17b50b0b8790504/node_modules/rxjs/operators/multicast.d.ts'
+
+npm manifest: 
+  {
+    "private": true,
+    "name": "astro",
+    "homepage" : "https://astro-onemira.netlify.com",
+    "scripts": {
+      "deploy": "netlify deploy --prod --dir=public",
+      "postdeploy": "echo 'Your site was deployed to https://astro-onemira.netlify.com'",
+      "start": "browser-sync start --server 'public' --files 'public'"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
