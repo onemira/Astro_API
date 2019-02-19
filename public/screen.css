@@ -10,3 +10,143 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+footer {
+  text-align: center;
+  background-color: #512DAB;
+  padding: 2rem;
+  color: rgb(189, 184, 184);
+}
+
+/* -------------------------------- */
+
+nav.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #512DAB;
+}
+
+
+a {
+  text-align: center;
+  padding: .5rem;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.title {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 10px 0px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  text-decoration: underline;
+}
+
+.about:hover {
+  background-color: #FFC107;
+  padding: 1rem;
+}
+
+.contact:hover {
+  background-color: #FFC107;
+  padding: 1rem;
+}
+
+nav ul li {
+  font-size: 1rem;
+  height: 100%;
+}
+
+/* -----------------------------  */
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f6f6f6;
+  padding: 9rem 0;
+}
+
+
+/* ------------------------------- */
+.copyright {
+  text-align: center;
+  font-size: 10px;
+  margin: -.7rem;
+}
+
+/* ----------------------------- */
+.news {
+  background-color: #FFC107;
+  padding: 1.1rem;
+}
+
+/* --------------------------------- */
+
+.spaceX {
+  background: rgba(194, 191, 191, 0.3);
+  border-radius: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #c4bcbc;
+}
+
+.fa-li {
+  text-align: center;
+}
+
+.test,
+.unix,
+.utc,
+.siteName {
+  border-bottom: 1px solid #c4bcbc;
+  border-bottom-width: 100%;
+  /* line-height: 30px;
+  list-style-type: none; */
+}
+
+.fa-ul {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center; */
+}
+
+.button-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-left,
+.btn-right {
+  background-color: #FFC107;
+  height: 5rem;
+  width: 6rem;
+  font-size: 1.4rem;
+}
+
+.btn-left {
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.btn-right {
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+
+/* ------------------------------- */
+.mission {
+  text-align: center;
+  background-color: #D1C4E9;
+  padding: 2rem;
+}
+
+.mission-content {
+  font-size: 1.3rem;
+}
